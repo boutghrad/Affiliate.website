@@ -1,471 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Top Tech Gadgets 2024 | GadgetFinderPro</title>
-  <meta name="description" content="Discover expert-tested tech gadgets. Reliable buying guides with real-time Amazon prices." />
-  <meta name="keywords" content="tech gadgets, wireless earbuds, smartphones, accessories, product reviews" />
+  <title>Meilleurs Gadgets Tech 2024 | GadgetFinderPro</title>
+  <meta name="description" content="Découvrez des gadgets technologiques testés par nos experts. Guides d'achat fiables avec prix Amazon en temps réel." />
+  <meta name="keywords" content="gadgets tech, écouteurs sans fil, smartphones, accessoires, tests produits, guides achat" />
   <meta name="author" content="GadgetFinderPro" />
   <meta name="robots" content="index, follow" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="canonical" href="https://gadgetfinderpro.com/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   
   <!-- Open Graph -->
-  <meta property="og:title" content="Top Tech Gadgets 2024 | GadgetFinderPro" />
-  <meta property="og:description" content="Discover expert-tested tech gadgets. Reliable buying guides with real-time Amazon prices." />
+  <meta property="og:title" content="Meilleurs Gadgets Tech 2024 | GadgetFinderPro" />
+  <meta property="og:description" content="Découvrez des gadgets technologiques testés par nos experts. Guides d'achat fiables avec prix Amazon en temps réel." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://gadgetfinderpro.com/" />
   <meta property="og:image" content="https://gadgetfinderpro.com/logo.png" />
   <meta property="og:site_name" content="GadgetFinderPro" />
-  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale" content="fr_FR" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Top Tech Gadgets 2024 | GadgetFinderPro" />
-  <meta name="twitter:description" content="Discover expert-tested tech gadgets." />
+  <meta name="twitter:title" content="Meilleurs Gadgets Tech 2024 | GadgetFinderPro" />
+  <meta name="twitter:description" content="Découvrez des gadgets technologiques testés par nos experts." />
   <meta name="twitter:image" content="https://gadgetfinderpro.com/logo.png" />
   <meta name="twitter:site" content="@GadgetFinderPro" />
   
-  <style>
-    :root {
-      --primary: #2563eb;
-      --primary-dark: #1d4ed8;
-      --secondary: #10b981;
-      --dark: #1e293b;
-      --light: #f8fafc;
-      --gray: #64748b;
-      --light-gray: #e2e8f0;
-      --accent: #f97316;
-      --card-bg: #ffffff;
-      --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      --transition: all 0.3s ease;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      font-family: 'Inter', sans-serif;
-      color: var(--dark);
-      background-color: var(--light);
-      line-height: 1.6;
-    }
-    
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-    
-    /* Header Styles */
-    header {
-      background-color: white;
-      box-shadow: var(--shadow);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 0;
-    }
-    
-    .logo {
-      font-size: 1.8rem;
-      font-weight: 800;
-      color: var(--primary);
-      text-decoration: none;
-    }
-    
-    .nav-menu {
-      display: flex;
-      gap: 30px;
-    }
-    
-    .nav-menu a {
-      text-decoration: none;
-      color: var(--dark);
-      font-weight: 500;
-      transition: var(--transition);
-      position: relative;
-    }
-    
-    .nav-menu a:hover, 
-    .nav-menu a.active {
-      color: var(--primary);
-    }
-    
-    .nav-menu a.active::after {
-      content: '';
-      position: absolute;
-      bottom: -5px;
-      left: 0;
-      width: 100%;
-      height: 3px;
-      background-color: var(--primary);
-      border-radius: 2px;
-    }
-    
-    .mobile-menu {
-      display: none;
-      font-size: 1.5rem;
-      cursor: pointer;
-    }
-    
-    /* Hero Section */
-    .hero {
-      background: linear-gradient(120deg, #2563eb, #1e40af);
-      color: white;
-      padding: 100px 0;
-      text-align: center;
-      margin-bottom: 60px;
-    }
-    
-    .hero-content {
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    
-    .hero h1 {
-      font-size: 3.5rem;
-      margin-bottom: 20px;
-      font-weight: 800;
-    }
-    
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-      opacity: 0.9;
-    }
-    
-    .btn-primary {
-      display: inline-block;
-      background-color: var(--secondary);
-      color: white;
-      padding: 12px 28px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: var(--transition);
-      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
-    }
-    
-    .btn-primary:hover {
-      background-color: #0da271;
-      transform: translateY(-3px);
-    }
-    
-    /* Products Section */
-    .section-title {
-      text-align: center;
-      margin-bottom: 50px;
-      font-size: 2.5rem;
-      color: var(--dark);
-      font-weight: 700;
-    }
-    
-    .products-grid {
-      padding: 60px 0;
-    }
-    
-    .products-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 30px;
-      margin-top: 30px;
-    }
-    
-    .product-card {
-      background-color: var(--card-bg);
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: var(--shadow);
-      transition: var(--transition);
-      position: relative;
-    }
-    
-    .product-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    }
-    
-    .product-badge {
-      position: absolute;
-      top: 15px;
-      left: 15px;
-      background-color: var(--accent);
-      color: white;
-      padding: 5px 12px;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      z-index: 2;
-    }
-    
-    .product-badge.new {
-      background-color: var(--secondary);
-    }
-    
-    .product-badge.trending {
-      background-color: var(--primary);
-    }
-    
-    .product-image {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-      border-bottom: 1px solid var(--light-gray);
-    }
-    
-    .product-content {
-      padding: 20px;
-    }
-    
-    .product-card h3 {
-      font-size: 1.3rem;
-      margin-bottom: 12px;
-      color: var(--dark);
-    }
-    
-    .rating {
-      display: flex;
-      align-items: center;
-      margin-bottom: 12px;
-      gap: 8px;
-    }
-    
-    .stars {
-      color: #fbbf24;
-      font-size: 1rem;
-    }
-    
-    .rating-text {
-      font-size: 0.9rem;
-      color: var(--gray);
-    }
-    
-    .product-desc {
-      color: var(--gray);
-      margin-bottom: 20px;
-      font-size: 0.95rem;
-    }
-    
-    .price-section {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
-    
-    .price {
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: var(--dark);
-    }
-    
-    .price-old {
-      font-size: 1rem;
-      text-decoration: line-through;
-      color: var(--gray);
-    }
-    
-    .discount {
-      background-color: #fee2e2;
-      color: #ef4444;
-      padding: 3px 8px;
-      border-radius: 4px;
-      font-size: 0.85rem;
-      font-weight: 600;
-    }
-    
-    .btn-amazon {
-      display: block;
-      text-align: center;
-      background-color: #ff9900;
-      color: white;
-      padding: 12px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: var(--transition);
-      position: relative;
-    }
-    
-    .btn-amazon:hover {
-      background-color: #e88a00;
-    }
-    
-    .btn-amazon i {
-      margin-right: 8px;
-    }
-    
-    /* Blog Section */
-    .blog-posts {
-      background-color: #f1f5f9;
-      padding: 80px 0;
-    }
-    
-    .blog-post {
-      background-color: white;
-      border-radius: 12px;
-      padding: 30px;
-      box-shadow: var(--shadow);
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    
-    .blog-post h3 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-      color: var(--dark);
-    }
-    
-    .blog-post p {
-      color: var(--gray);
-      margin-bottom: 20px;
-    }
-    
-    .read-more {
-      display: inline-block;
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 600;
-      transition: var(--transition);
-    }
-    
-    .read-more:hover {
-      color: var(--primary-dark);
-    }
-    
-    /* Contact Section */
-    .contact-section {
-      padding: 80px 0;
-      text-align: center;
-    }
-    
-    .contact-section p {
-      color: var(--gray);
-      margin-bottom: 30px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .contact-info {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background-color: var(--light-gray);
-      padding: 15px 25px;
-      border-radius: 8px;
-    }
-    
-    .contact-info a {
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 500;
-      transition: var(--transition);
-    }
-    
-    .contact-info a:hover {
-      color: var(--primary-dark);
-    }
-    
-    /* Footer */
-    footer {
-      background-color: var(--dark);
-      color: white;
-      padding: 40px 0;
-      text-align: center;
-    }
-    
-    .footer-content {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    
-    .footer-nav {
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      margin-bottom: 20px;
-    }
-    
-    .footer-nav a {
-      color: var(--light-gray);
-      text-decoration: none;
-      transition: var(--transition);
-    }
-    
-    .footer-nav a:hover {
-      color: white;
-    }
-    
-    .amazon-disclaimer {
-      color: #94a3b8;
-      font-size: 0.9rem;
-      margin-bottom: 15px;
-    }
-    
-    .copyright {
-      color: #94a3b8;
-      font-size: 0.9rem;
-    }
-    
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .nav-menu {
-        display: none;
-      }
-      
-      .mobile-menu {
-        display: block;
-      }
-      
-      .hero h1 {
-        font-size: 2.5rem;
-      }
-      
-      .section-title {
-        font-size: 2rem;
-      }
-      
-      .footer-nav {
-        flex-direction: column;
-        gap: 15px;
-      }
-    }
-  </style>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
   <!-- Cookie Consent -->
-  <div class="cookie-consent" role="banner" aria-label="Cookie consent">
-    <p>We use cookies to enhance your experience. <a href="privacy.html">Learn more</a></p>
-    <button class="cookie-accept" aria-label="Accept cookies">Accept</button>
+  <div class="cookie-consent" role="banner" aria-label="Consentement aux cookies">
+    <p>Nous utilisons des cookies pour améliorer votre expérience. <a href="privacy.html">En savoir plus</a></p>
+    <button class="cookie-accept" aria-label="Accepter les cookies">Accepter</button>
   </div>
 
   <!-- Skip to main content for accessibility -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
 
   <header role="banner">
-    <nav class="nav-container container" role="navigation" aria-label="Main navigation">
-      <a href="index.html" class="logo" aria-label="GadgetFinderPro - Home">GadgetFinderPro</a>
+    <nav class="nav-container" role="navigation" aria-label="Navigation principale">
+      <a href="index.html" class="logo" aria-label="GadgetFinderPro - Accueil">GadgetFinderPro</a>
       <div class="nav-menu" role="menubar">
-        <a href="products.html" role="menuitem" class="active">Products</a>
+        <a href="products.html" role="menuitem">Produits</a>
         <a href="blog/wireless-earbuds-guide.html" role="menuitem">Blog</a>
         <a href="#contact" role="menuitem">Contact</a>
       </div>
-      <button class="mobile-menu" aria-label="Mobile menu" aria-expanded="false">
+      <button class="mobile-menu" aria-label="Menu mobile" aria-expanded="false">
         <i class="fas fa-bars" aria-hidden="true"></i>
       </button>
     </nav>
@@ -473,211 +64,81 @@
 
   <main id="main-content" role="main">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-content container">
-        <h1 id="hero-title">Find Your Perfect Tech Gadgets</h1>
-        <p>Expert reviews and buying guides for the latest tech products</p>
-        <a href="products.html" class="btn-primary" aria-describedby="hero-title">Explore Products</a>
+      <div class="hero-content">
+        <h1 id="hero-title">Trouvez les Gadgets Tech Parfaits</h1>
+        <p>Avis d'experts et guides d'achat pour les derniers produits technologiques</p>
+        <a href="products.html" class="btn-primary" aria-describedby="hero-title">Explorer les Produits</a>
       </div>
     </section>
 
-    <section id="products" class="products-grid container" aria-labelledby="products-title">
-      <h2 id="products-title" class="section-title">Our Top Picks This Month</h2>
-      <div class="products-container">
-        <!-- Product 1 -->
-        <article class="product-card" itemscope itemtype="https://schema.org/Product">
-          <div class="product-badge">Editor's Choice</div>
-          <img src="wireless-headphones.jpg" alt="Wireless noise-cancelling headphones" class="product-image" itemprop="image" />
-          <div class="product-content">
-            <h3 itemprop="name">Wireless Noise-Cancelling Headphones</h3>
-            <div class="rating" data-rating="4.5" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-              <span class="stars" aria-label="4.5 out of 5 stars">★★★★☆</span>
-              <span class="rating-text">(<span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating">5</span>)</span>
-              <meta itemprop="reviewCount" content="1247" />
-            </div>
-            <p class="product-desc" itemprop="description">Premium sound quality with 40-hour battery life and advanced noise cancellation technology</p>
-            <div class="price-section">
-              <div class="price">$199.99</div>
-              <div class="price-old">$249.99</div>
-              <div class="discount">-20%</div>
-            </div>
-            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener" aria-label="Buy wireless headphones on Amazon">
-              <i class="fab fa-amazon"></i> Buy on Amazon
-            </a>
+    <section id="products" class="products-grid" aria-labelledby="products-title">
+      <h2 id="products-title">Nos Coups de Cœur du Mois</h2>
+      <article class="product-card" itemscope itemtype="https://schema.org/Product">
+        <img src="wireless-headphones.jpg" alt="Écouteurs sans fil à réduction de bruit" class="product-image" itemprop="image" />
+        <div class="product-content">
+          <h3 itemprop="name">Écouteurs Sans Fil à Réduction de Bruit</h3>
+          <div class="rating" data-rating="4.5" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            <span class="stars" aria-label="4,5 étoiles sur 5">★★★★☆</span>
+            <span class="rating-text">(<span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating">5</span>)</span>
+            <meta itemprop="reviewCount" content="1247" />
           </div>
-        </article>
-
-        <!-- Product 2 -->
-        <article class="product-card" itemscope itemtype="https://schema.org/Product">
-          <div class="product-badge new">New</div>
-          <img src="images/smartphone-placeholder.jpg" alt="Premium Smartphone 2024" class="product-image" itemprop="image" />
-          <div class="product-content">
-            <h3 itemprop="name">Premium Smartphone 2024</h3>
-            <div class="rating" data-rating="4.3" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-              <span class="stars" aria-label="4.3 out of 5 stars">★★★★☆</span>
-              <span class="rating-text">(<span itemprop="ratingValue">4.3</span>/<span itemprop="bestRating">5</span>)</span>
-              <meta itemprop="reviewCount" content="892" />
-            </div>
-            <p class="product-desc" itemprop="description">Latest flagship with ultra-fast processor, professional camera and 120Hz OLED display</p>
-            <div class="price-section">
-              <div class="price">$899.99</div>
-            </div>
-            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener" aria-label="Buy premium smartphone on Amazon">
-              <i class="fab fa-amazon"></i> Buy on Amazon
-            </a>
+          <p class="product-desc" itemprop="description">Qualité sonore premium avec 40h d'autonomie et technologie avancée de réduction de bruit</p>
+          <div class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <span itemprop="price" content="199.99">199,99€</span>
+            <meta itemprop="priceCurrency" content="EUR" />
+            <meta itemprop="availability" content="https://schema.org/InStock" />
           </div>
-        </article>
-
-        <!-- Product 3 -->
-        <article class="product-card" itemscope itemtype="https://schema.org/Product">
-          <img src="images/charger-placeholder.jpg" alt="Fast Wireless Charger" class="product-image" itemprop="image" />
-          <div class="product-content">
-            <h3 itemprop="name">Fast Wireless Charger</h3>
-            <div class="rating" data-rating="4.7" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-              <span class="stars" aria-label="4.7 out of 5 stars">★★★★★</span>
-              <span class="rating-text">(<span itemprop="ratingValue">4.7</span>/<span itemprop="bestRating">5</span>)</span>
-              <meta itemprop="reviewCount" content="2156" />
-            </div>
-            <p class="product-desc" itemprop="description">Ultra-fast wireless charger compatible with all Qi devices. Elegant design and safe charging</p>
-            <div class="price-section">
-              <div class="price">$39.99</div>
-              <div class="price-old">$59.99</div>
-              <div class="discount">-33%</div>
-            </div>
-            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener" aria-label="Buy wireless charger on Amazon">
-              <i class="fab fa-amazon"></i> Buy on Amazon
-            </a>
-          </div>
-        </article>
-
-        <!-- Product 4 -->
-        <article class="product-card" itemscope itemtype="https://schema.org/Product">
-          <div class="product-badge trending">Trending</div>
-          <img src="images/smart-speaker-placeholder.jpg" alt="Smart Speaker" class="product-image" itemprop="image" />
-          <div class="product-content">
-            <h3 itemprop="name">Smart Speaker</h3>
-            <div class="rating" data-rating="4.4" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-              <span class="stars" aria-label="4.4 out of 5 stars">★★★★☆</span>
-              <span class="rating-text">(<span itemprop="ratingValue">4.4</span>/<span itemprop="bestRating">5</span>)</span>
-              <meta itemprop="reviewCount" content="3421" />
-            </div>
-            <p class="product-desc" itemprop="description">Intelligent voice assistant with 360° sound and smart home control</p>
-            <div class="price-section">
-              <div class="price">$129.99</div>
-            </div>
-            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener" aria-label="Buy smart speaker on Amazon">
-              <i class="fab fa-amazon"></i> Buy on Amazon
-            </a>
-          </div>
-        </article>
-
-        <!-- Product 5 -->
-        <article class="product-card" itemscope itemtype="https://schema.org/Product">
-          <img src="images/earbuds-placeholder.jpg" alt="True Wireless Earbuds" class="product-image" itemprop="image" />
-          <div class="product-content">
-            <h3 itemprop="name">True Wireless Earbuds</h3>
-            <div class="rating" data-rating="4.2" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-              <span class="stars" aria-label="4.2 out of 5 stars">★★★★☆</span>
-              <span class="rating-text">(<span itemprop="ratingValue">4.2</span>/<span itemprop="bestRating">5</span>)</span>
-              <meta itemprop="reviewCount" content="1876" />
-            </div>
-            <p class="product-desc" itemprop="description">Compact wireless earbuds with charging case. Perfect for sports and daily use</p>
-            <div class="price-section">
-              <div class="price">$79.99</div>
-              <div class="price-old">$99.99</div>
-              <div class="discount">-20%</div>
-            </div>
-            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener" aria-label="Buy true wireless earbuds on Amazon">
-              <i class="fab fa-amazon"></i> Buy on Amazon
-            </a>
-          </div>
-        </article>
-
-        <!-- Product 6 -->
-        <article class="product-card" itemscope itemtype="https://schema.org/Product">
-          <img src="images/powerbank-placeholder.jpg" alt="20000mAh Power Bank" class="product-image" itemprop="image" />
-          <div class="product-content">
-            <h3 itemprop="name">20000mAh Power Bank</h3>
-            <div class="rating" data-rating="4.6" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-              <span class="stars" aria-label="4.6 out of 5 stars">★★★★★</span>
-              <span class="rating-text">(<span itemprop="ratingValue">4.6</span>/<span itemprop="bestRating">5</span>)</span>
-              <meta itemprop="reviewCount" content="5432" />
-            </div>
-            <p class="product-desc" itemprop="description">High-capacity external battery with fast charging and multiple ports. Essential for travel</p>
-            <div class="price-section">
-              <div class="price">$49.99</div>
-            </div>
-            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener" aria-label="Buy power bank on Amazon">
-              <i class="fab fa-amazon"></i> Buy on Amazon
-            </a>
-          </div>
-        </article>
-      </div>
+          <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener" aria-label="Acheter les écouteurs sans fil sur Amazon">Acheter sur Amazon</a>
+        </div>
+      </article>
     </section>
 
     <section id="blog" class="blog-posts" aria-labelledby="blog-title">
-      <div class="container">
-        <h2 id="blog-title" class="section-title">Latest Buying Guides</h2>
-        <article class="blog-post" itemscope itemtype="https://schema.org/Article">
-          <h3 itemprop="headline">Best Wireless Earbuds Under $100</h3>
-          <p itemprop="description">Discover top-rated options for tight budgets. Our comprehensive guide covers sound quality, battery life, and comfort.</p>
-          <a href="blog/wireless-earbuds-guide.html" class="read-more" aria-label="Read the full article on wireless earbuds">Read More</a>
-          <meta itemprop="author" content="GadgetFinderPro" />
-          <meta itemprop="datePublished" content="2024-06-29" />
-        </article>
-      </div>
+      <h2 id="blog-title">Derniers Guides</h2>
+      <article class="blog-post" itemscope itemtype="https://schema.org/Article">
+        <h3 itemprop="headline">Meilleurs Écouteurs Sans Fil Moins de 100€</h3>
+        <p itemprop="description">Découvrez les options les mieux notées pour les budgets serrés. Notre guide complet couvre la qualité sonore, l'autonomie et le confort.</p>
+        <a href="blog/wireless-earbuds-guide.html" class="read-more" aria-label="Lire l'article complet sur les écouteurs sans fil">Lire la Suite</a>
+        <meta itemprop="author" content="GadgetFinderPro" />
+        <meta itemprop="datePublished" content="2024-06-29" />
+      </article>
     </section>
 
     <section id="contact" class="contact-section" aria-labelledby="contact-title">
-      <div class="container">
-        <h2 id="contact-title" class="section-title">Contact Us</h2>
-        <p>Have questions about our recommendations? Contact our expert team.</p>
-        <div class="contact-info">
-          <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:contact@gadgetfinderpro.com">contact@gadgetfinderpro.com</a></p>
-        </div>
+      <h2 id="contact-title">Nous Contacter</h2>
+      <p>Vous avez des questions sur nos recommandations ? Contactez notre équipe d'experts.</p>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:contact@gadgetfinderpro.com">contact@gadgetfinderpro.com</a></p>
       </div>
     </section>
   </main>
 
   <footer role="contentinfo">
-    <div class="footer-content container">
-      <nav class="footer-nav" role="navigation" aria-label="Footer navigation">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
-        <a href="disclaimer.html">Disclaimer</a>
+    <div class="footer-content">
+      <nav class="footer-nav" role="navigation" aria-label="Navigation du pied de page">
+        <a href="privacy.html">Politique de Confidentialité</a>
+        <a href="affiliate-disclosure.html">Divulgation d'Affiliation</a>
+        <a href="disclaimer.html">Avertissement</a>
       </nav>
-      <p class="amazon-disclaimer">As an Amazon Associate, I earn from qualifying purchases.</p>
-      <p class="copyright">&copy; 2024 GadgetFinderPro. All rights reserved.</p>
+      <p class="amazon-disclaimer">En tant qu'Associé Amazon, je gagne des revenus grâce aux achats éligibles.</p>
+      <p class="copyright">&copy; 2024 GadgetFinderPro. Tous droits réservés.</p>
     </div>
   </footer>
 
-  <script>
-    // Cookie consent functionality
-    document.addEventListener('DOMContentLoaded', function() {
-      const cookieConsent = document.querySelector('.cookie-consent');
-      const cookieAccept = document.querySelector('.cookie-accept');
-      
-      // Check if cookie consent has been accepted
-      if (!localStorage.getItem('cookieConsent')) {
-        cookieConsent.style.display = 'block';
-      }
-      
-      // Handle accept button click
-      cookieAccept.addEventListener('click', function() {
-        localStorage.setItem('cookieConsent', 'accepted');
-        cookieConsent.style.display = 'none';
-      });
-      
-      // Mobile menu functionality
-      const mobileMenuBtn = document.querySelector('.mobile-menu');
-      const navMenu = document.querySelector('.nav-menu');
-      
-      mobileMenuBtn.addEventListener('click', function() {
-        const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
-        mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
-        navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
-      });
-    });
-  </script>
+  <div class="newsletter-popup" id="newsletter-popup" role="dialog" aria-labelledby="newsletter-title" aria-hidden="true">
+    <div class="popup-content">
+      <button class="close-popup" aria-label="Fermer la popup">&times;</button>
+      <h3 id="newsletter-title">Recevez Notre Guide d'Achat Gratuit !</h3>
+      <p>Obtenez des recommandations d'experts et des offres exclusives</p>
+      <form id="newsletter-form" aria-labelledby="newsletter-title">
+        <label for="newsletter-email" class="sr-only">Adresse email</label>
+        <input type="email" id="newsletter-email" placeholder="Entrez votre email" required aria-describedby="newsletter-title" />
+        <button type="submit">Télécharger Maintenant</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
   
   <!-- Schema.org structured data -->
   <script type="application/ld+json">
@@ -685,7 +146,7 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "GadgetFinderPro",
-    "description": "Discover expert-tested tech gadgets. Reliable buying guides with real-time Amazon prices.",
+    "description": "Découvrez des gadgets technologiques testés par nos experts. Guides d'achat fiables avec prix Amazon en temps réel.",
     "url": "https://gadgetfinderpro.com",
     "potentialAction": {
       "@type": "SearchAction",
@@ -717,21 +178,22 @@
     "name": "GadgetFinderPro",
     "url": "https://gadgetfinderpro.com",
     "logo": "https://gadgetfinderpro.com/logo.png",
-    "description": "Expert in testing and evaluating tech gadgets",
+    "description": "Expert en tests et évaluations de gadgets technologiques",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-555-123-4567",
+      "telephone": "+33-1-23-45-67-89",
       "contactType": "customer service",
       "email": "contact@gadgetfinderpro.com"
     },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Tech Street",
-      "addressLocality": "San Francisco",
-      "postalCode": "94105",
-      "addressCountry": "US"
+      "streetAddress": "123 Rue de la Tech",
+      "addressLocality": "Paris",
+      "postalCode": "75001",
+      "addressCountry": "FR"
     }
   }
   </script>
 </body>
 </html>
+
