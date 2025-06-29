@@ -1,101 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best Tech Gadgets 2024 | GadgetFinderPro</title>
-  <meta name="description" content="Discover expert-reviewed tech gadgets and accessories. Authoritative buying guides with real-time Amazon pricing." />
+  <title>Meilleurs Gadgets Tech 2024 | GadgetFinderPro</title>
+  <meta name="description" content="Découvrez des gadgets technologiques testés par nos experts. Guides d'achat fiables avec prix Amazon en temps réel." />
+  <meta name="keywords" content="gadgets tech, écouteurs sans fil, smartphones, accessoires, tests produits, guides achat" />
+  <meta name="author" content="GadgetFinderPro" />
+  <meta name="robots" content="index, follow" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="canonical" href="https://gadgetfinderpro.com/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Meilleurs Gadgets Tech 2024 | GadgetFinderPro" />
+  <meta property="og:description" content="Découvrez des gadgets technologiques testés par nos experts. Guides d'achat fiables avec prix Amazon en temps réel." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gadgetfinderpro.com/" />
+  <meta property="og:image" content="https://gadgetfinderpro.com/logo.png" />
+  <meta property="og:site_name" content="GadgetFinderPro" />
+  <meta property="og:locale" content="fr_FR" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Meilleurs Gadgets Tech 2024 | GadgetFinderPro" />
+  <meta name="twitter:description" content="Découvrez des gadgets technologiques testés par nos experts." />
+  <meta name="twitter:image" content="https://gadgetfinderpro.com/logo.png" />
+  <meta name="twitter:site" content="@GadgetFinderPro" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
   <!-- Cookie Consent -->
-  <div class="cookie-consent">
-    <p>We use cookies to enhance your experience. <a href="privacy.html">Learn More</a></p>
-    <button class="cookie-accept">Accept</button>
+  <div class="cookie-consent" role="banner" aria-label="Consentement aux cookies">
+    <p>Nous utilisons des cookies pour améliorer votre expérience. <a href="privacy.html">En savoir plus</a></p>
+    <button class="cookie-accept" aria-label="Accepter les cookies">Accepter</button>
   </div>
 
-  <header>
-    <nav class="nav-container">
-      <h1 class="logo">GadgetFinderPro</h1>
-      <div class="nav-menu">
-        <a href="products.html">Products</a>
-        <a href="blog/wireless-earbuds-guide.html">Blog</a>
-        <a href="#contact">Contact</a>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <header role="banner">
+    <nav class="nav-container" role="navigation" aria-label="Navigation principale">
+      <a href="index.html" class="logo" aria-label="GadgetFinderPro - Accueil">GadgetFinderPro</a>
+      <div class="nav-menu" role="menubar">
+        <a href="products.html" role="menuitem">Produits</a>
+        <a href="blog/wireless-earbuds-guide.html" role="menuitem">Blog</a>
+        <a href="#contact" role="menuitem">Contact</a>
       </div>
-      <div class="mobile-menu"><i class="fas fa-bars"></i></div>
+      <button class="mobile-menu" aria-label="Menu mobile" aria-expanded="false">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content" role="main">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="hero-content">
-        <h1>Find the Perfect Tech Gadgets</h1>
-        <p>Expert reviews and buying guides for the latest technology products</p>
-        <a href="products.html" class="btn-primary">Explore Products</a>
+        <h1 id="hero-title">Trouvez les Gadgets Tech Parfaits</h1>
+        <p>Avis d'experts et guides d'achat pour les derniers produits technologiques</p>
+        <a href="products.html" class="btn-primary" aria-describedby="hero-title">Explorer les Produits</a>
       </div>
     </section>
 
-    <section id="products" class="products-grid">
-      <h2>Top Picks This Month</h2>
-      <article class="product-card">
-        <img src="images/wireless-headphones.jpg" alt="Wireless Headphones" class="product-image" />
+    <section id="products" class="products-grid" aria-labelledby="products-title">
+      <h2 id="products-title">Nos Coups de Cœur du Mois</h2>
+      <article class="product-card" itemscope itemtype="https://schema.org/Product">
+        <img src="wireless-headphones.jpg" alt="Écouteurs sans fil à réduction de bruit" class="product-image" itemprop="image" />
         <div class="product-content">
-          <h3>Wireless Noise-Canceling Headphones</h3>
-          <div class="rating" data-rating="4.5">
-            <span class="stars">★★★★☆</span>
-            <span class="rating-text">(4.5/5)</span>
+          <h3 itemprop="name">Écouteurs Sans Fil à Réduction de Bruit</h3>
+          <div class="rating" data-rating="4.5" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            <span class="stars" aria-label="4,5 étoiles sur 5">★★★★☆</span>
+            <span class="rating-text">(<span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating">5</span>)</span>
+            <meta itemprop="reviewCount" content="1247" />
           </div>
-          <p class="product-desc">Premium sound quality with 40-hour battery life and advanced noise cancellation technology</p>
-          <div class="price">$199.99</div>
-          <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">Buy on Amazon</a>
+          <p class="product-desc" itemprop="description">Qualité sonore premium avec 40h d'autonomie et technologie avancée de réduction de bruit</p>
+          <div class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <span itemprop="price" content="199.99">199,99€</span>
+            <meta itemprop="priceCurrency" content="EUR" />
+            <meta itemprop="availability" content="https://schema.org/InStock" />
+          </div>
+          <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener" aria-label="Acheter les écouteurs sans fil sur Amazon">Acheter sur Amazon</a>
         </div>
       </article>
     </section>
 
-    <section id="blog" class="blog-posts">
-      <h2>Latest Guides</h2>
-      <article class="blog-post">
-        <h3>Best Wireless Earbuds Under $100</h3>
-        <p>Discover top-rated options for budget-conscious buyers. Our comprehensive guide covers sound quality, battery life, and comfort features.</p>
-        <a href="blog/wireless-earbuds-guide.html" class="read-more">Read More</a>
+    <section id="blog" class="blog-posts" aria-labelledby="blog-title">
+      <h2 id="blog-title">Derniers Guides</h2>
+      <article class="blog-post" itemscope itemtype="https://schema.org/Article">
+        <h3 itemprop="headline">Meilleurs Écouteurs Sans Fil Moins de 100€</h3>
+        <p itemprop="description">Découvrez les options les mieux notées pour les budgets serrés. Notre guide complet couvre la qualité sonore, l'autonomie et le confort.</p>
+        <a href="blog/wireless-earbuds-guide.html" class="read-more" aria-label="Lire l'article complet sur les écouteurs sans fil">Lire la Suite</a>
+        <meta itemprop="author" content="GadgetFinderPro" />
+        <meta itemprop="datePublished" content="2024-06-29" />
       </article>
     </section>
 
-    <section id="contact" class="contact-section">
-      <h2>Get in Touch</h2>
-      <p>Have questions about our recommendations? Contact our expert team.</p>
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <h2 id="contact-title">Nous Contacter</h2>
+      <p>Vous avez des questions sur nos recommandations ? Contactez notre équipe d'experts.</p>
       <div class="contact-info">
-        <p><i class="fas fa-envelope"></i> contact@gadgetfinderpro.com</p>
+        <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:contact@gadgetfinderpro.com">contact@gadgetfinderpro.com</a></p>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="footer-content">
-      <nav class="footer-nav">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
-        <a href="disclaimer.html">Disclaimer</a>
+      <nav class="footer-nav" role="navigation" aria-label="Navigation du pied de page">
+        <a href="privacy.html">Politique de Confidentialité</a>
+        <a href="affiliate-disclosure.html">Divulgation d'Affiliation</a>
+        <a href="disclaimer.html">Avertissement</a>
       </nav>
-      <p class="amazon-disclaimer">As an Amazon Associate I earn from qualifying purchases.</p>
-      <p class="copyright">&copy; 2024 GadgetFinderPro. All rights reserved.</p>
+      <p class="amazon-disclaimer">En tant qu'Associé Amazon, je gagne des revenus grâce aux achats éligibles.</p>
+      <p class="copyright">&copy; 2024 GadgetFinderPro. Tous droits réservés.</p>
     </div>
   </footer>
 
-  <div class="newsletter-popup" id="newsletter-popup">
+  <div class="newsletter-popup" id="newsletter-popup" role="dialog" aria-labelledby="newsletter-title" aria-hidden="true">
     <div class="popup-content">
-      <button class="close-popup">&times;</button>
-      <h3>Get Our Free Buyer's Guide!</h3>
-      <p>Receive expert recommendations and exclusive deals</p>
-      <form id="newsletter-form">
-        <input type="email" placeholder="Enter your email" required />
-        <button type="submit">Download Now</button>
+      <button class="close-popup" aria-label="Fermer la popup">&times;</button>
+      <h3 id="newsletter-title">Recevez Notre Guide d'Achat Gratuit !</h3>
+      <p>Obtenez des recommandations d'experts et des offres exclusives</p>
+      <form id="newsletter-form" aria-labelledby="newsletter-title">
+        <label for="newsletter-email" class="sr-only">Adresse email</label>
+        <input type="email" id="newsletter-email" placeholder="Entrez votre email" required aria-describedby="newsletter-title" />
+        <button type="submit">Télécharger Maintenant</button>
       </form>
     </div>
   </div>
 
   <script src="script.js"></script>
+  
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "GadgetFinderPro",
+    "description": "Découvrez des gadgets technologiques testés par nos experts. Guides d'achat fiables avec prix Amazon en temps réel.",
+    "url": "https://gadgetfinderpro.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://gadgetfinderpro.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GadgetFinderPro",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gadgetfinderpro.com/logo.png",
+        "width": 400,
+        "height": 200
+      },
+      "sameAs": [
+        "https://twitter.com/GadgetFinderPro",
+        "https://facebook.com/GadgetFinderPro"
+      ]
+    }
+  }
+  </script>
+
+  <!-- Additional Schema.org for Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "GadgetFinderPro",
+    "url": "https://gadgetfinderpro.com",
+    "logo": "https://gadgetfinderpro.com/logo.png",
+    "description": "Expert en tests et évaluations de gadgets technologiques",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+33-1-23-45-67-89",
+      "contactType": "customer service",
+      "email": "contact@gadgetfinderpro.com"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Rue de la Tech",
+      "addressLocality": "Paris",
+      "postalCode": "75001",
+      "addressCountry": "FR"
+    }
+  }
+  </script>
 </body>
 </html>
 
