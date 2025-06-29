@@ -1,19 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best Tech Products 2024 | GadgetFinderPro</title>
-  <meta name="description" content="Browse our curated selection of top-rated tech gadgets and accessories with expert reviews and buying guides." />
+  <title>Produits Tech 2024 | GadgetFinderPro</title>
+  <meta name="description" content="Découvrez notre sélection complète de gadgets technologiques testés et approuvés. Guides d'achat détaillés avec prix en temps réel." />
+  <meta name="keywords" content="gadgets tech, écouteurs sans fil, smartphones, accessoires, tests produits" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="canonical" href="https://gadgetfinderpro.com/products.html" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Produits Tech 2024 | GadgetFinderPro" />
+  <meta property="og:description" content="Découvrez notre sélection complète de gadgets technologiques testés et approuvés." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gadgetfinderpro.com/products.html" />
+  <meta property="og:image" content="https://gadgetfinderpro.com/logo.png" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Produits Tech 2024 | GadgetFinderPro" />
+  <meta name="twitter:description" content="Découvrez notre sélection complète de gadgets technologiques testés et approuvés." />
+  <meta name="twitter:image" content="https://gadgetfinderpro.com/logo.png" />
 </head>
 <body>
+  <!-- Cookie Consent -->
+  <div class="cookie-consent">
+    <p>Nous utilisons des cookies pour améliorer votre expérience. <a href="privacy.html">En savoir plus</a></p>
+    <button class="cookie-accept">Accepter</button>
+  </div>
+
   <header>
     <nav class="nav-container">
-      <h1 class="logo"><a href="index.html">GadgetFinderPro</a></h1>
+      <a href="index.html" class="logo">GadgetFinderPro</a>
       <div class="nav-menu">
-        <a href="products.html" class="active">Products</a>
+        <a href="products.html" class="active">Produits</a>
         <a href="blog/wireless-earbuds-guide.html">Blog</a>
         <a href="index.html#contact">Contact</a>
       </div>
@@ -22,126 +43,266 @@
   </header>
 
   <main>
-    <section class="page-header">
-      <h1>Our Top Product Recommendations</h1>
-      <p>Carefully selected and thoroughly tested by our expert team</p>
-    </section>
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+      <div class="breadcrumb-container">
+        <a href="index.html">Accueil</a>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-current">Produits</span>
+      </div>
+    </nav>
 
-    <section class="products-filter">
-      <div class="filter-buttons">
-        <button class="filter-btn active" data-category="all">All Products</button>
-        <button class="filter-btn" data-category="audio">Audio</button>
-        <button class="filter-btn" data-category="mobile">Mobile</button>
-        <button class="filter-btn" data-category="computing">Computing</button>
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="hero-content">
+        <h1>Nos Produits Recommandés</h1>
+        <p>Découvrez notre sélection de gadgets technologiques soigneusement testés et approuvés par nos experts</p>
       </div>
     </section>
 
-    <section class="products-grid">
-      <article class="product-card" data-category="audio">
-        <img src="images/wireless-headphones.jpg" alt="Wireless Headphones" class="product-image" />
-        <div class="product-content">
-          <h3>Premium Wireless Headphones</h3>
-          <div class="rating" data-rating="4.5">
-            <span class="stars">★★★★☆</span>
-            <span class="rating-text">(4.5/5)</span>
-          </div>
-          <p class="product-desc">Professional-grade wireless headphones with active noise cancellation and 40-hour battery life</p>
-          <div class="price">$199.99</div>
-          <div class="product-features">
-            <span class="feature">40h Battery</span>
-            <span class="feature">Noise Cancelling</span>
-            <span class="feature">Wireless</span>
-          </div>
-          <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
-            <i class="fab fa-amazon"></i> Buy on Amazon
-          </a>
+    <!-- Filtres -->
+    <section class="filters-section">
+      <div class="filters-container">
+        <h2>Filtrer par catégorie</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-category="all">Tous</button>
+          <button class="filter-btn" data-category="headphones">Écouteurs</button>
+          <button class="filter-btn" data-category="smartphones">Smartphones</button>
+          <button class="filter-btn" data-category="accessories">Accessoires</button>
+          <button class="filter-btn" data-category="smart-home">Maison Connectée</button>
         </div>
-      </article>
-
-      <article class="product-card" data-category="audio">
-        <div class="product-placeholder">
-          <i class="fas fa-headphones"></i>
-        </div>
-        <div class="product-content">
-          <h3>Wireless Earbuds Pro</h3>
-          <div class="rating" data-rating="4.3">
-            <span class="stars">★★★★☆</span>
-            <span class="rating-text">(4.3/5)</span>
-          </div>
-          <p class="product-desc">Compact wireless earbuds with premium sound quality and long-lasting battery</p>
-          <div class="price">$149.99</div>
-          <div class="product-features">
-            <span class="feature">8h Battery</span>
-            <span class="feature">Water Resistant</span>
-            <span class="feature">Touch Control</span>
-          </div>
-          <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
-            <i class="fab fa-amazon"></i> Buy on Amazon
-          </a>
-        </div>
-      </article>
-
-      <article class="product-card" data-category="mobile">
-        <div class="product-placeholder">
-          <i class="fas fa-mobile-alt"></i>
-        </div>
-        <div class="product-content">
-          <h3>Smartphone Stand Pro</h3>
-          <div class="rating" data-rating="4.7">
-            <span class="stars">★★★★★</span>
-            <span class="rating-text">(4.7/5)</span>
-          </div>
-          <p class="product-desc">Adjustable smartphone stand perfect for video calls and content viewing</p>
-          <div class="price">$29.99</div>
-          <div class="product-features">
-            <span class="feature">Adjustable</span>
-            <span class="feature">Foldable</span>
-            <span class="feature">Universal</span>
-          </div>
-          <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
-            <i class="fab fa-amazon"></i> Buy on Amazon
-          </a>
-        </div>
-      </article>
-
-      <article class="product-card" data-category="computing">
-        <div class="product-placeholder">
-          <i class="fas fa-keyboard"></i>
-        </div>
-        <div class="product-content">
-          <h3>Mechanical Keyboard RGB</h3>
-          <div class="rating" data-rating="4.6">
-            <span class="stars">★★★★★</span>
-            <span class="rating-text">(4.6/5)</span>
-          </div>
-          <p class="product-desc">High-performance mechanical keyboard with RGB backlighting and tactile switches</p>
-          <div class="price">$89.99</div>
-          <div class="product-features">
-            <span class="feature">RGB Lighting</span>
-            <span class="feature">Mechanical</span>
-            <span class="feature">Gaming</span>
-          </div>
-          <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
-            <i class="fab fa-amazon"></i> Buy on Amazon
-          </a>
-        </div>
-      </article>
+      </div>
     </section>
+
+    <!-- Grille de produits -->
+    <section class="products-showcase">
+      <div class="products-container">
+        
+        <!-- Produit 1 -->
+        <article class="product-card" data-category="headphones">
+          <div class="product-badge">Choix de l'éditeur</div>
+          <img src="wireless-headphones.jpg" alt="Écouteurs sans fil à réduction de bruit" class="product-image" />
+          <div class="product-content">
+            <h3>Écouteurs Sans Fil à Réduction de Bruit</h3>
+            <div class="rating" data-rating="4.5">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-text">(4.5/5 - 1,247 avis)</span>
+            </div>
+            <p class="product-desc">Qualité sonore premium avec 40h d'autonomie et technologie avancée de réduction de bruit. Parfait pour les professionnels et audiophiles.</p>
+            <div class="product-features">
+              <span class="feature"><i class="fas fa-check"></i> Réduction de bruit active</span>
+              <span class="feature"><i class="fas fa-check"></i> 40h d'autonomie</span>
+              <span class="feature"><i class="fas fa-check"></i> Charge rapide</span>
+            </div>
+            <div class="price-section">
+              <div class="price">199,99€</div>
+              <div class="price-old">249,99€</div>
+              <div class="discount">-20%</div>
+            </div>
+            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
+              <i class="fab fa-amazon"></i> Acheter sur Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Produit 2 -->
+        <article class="product-card" data-category="smartphones">
+          <div class="product-badge new">Nouveau</div>
+          <img src="images/smartphone-placeholder.jpg" alt="Smartphone Premium 2024" class="product-image" />
+          <div class="product-content">
+            <h3>Smartphone Premium 2024</h3>
+            <div class="rating" data-rating="4.3">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-text">(4.3/5 - 892 avis)</span>
+            </div>
+            <p class="product-desc">Le dernier flagship avec processeur ultra-rapide, appareil photo professionnel et écran OLED 120Hz. Performance exceptionnelle.</p>
+            <div class="product-features">
+              <span class="feature"><i class="fas fa-check"></i> Écran OLED 120Hz</span>
+              <span class="feature"><i class="fas fa-check"></i> Triple caméra 108MP</span>
+              <span class="feature"><i class="fas fa-check"></i> 5G Ultra-rapide</span>
+            </div>
+            <div class="price-section">
+              <div class="price">899,99€</div>
+            </div>
+            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
+              <i class="fab fa-amazon"></i> Acheter sur Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Produit 3 -->
+        <article class="product-card" data-category="accessories">
+          <img src="images/charger-placeholder.jpg" alt="Chargeur Sans Fil Rapide" class="product-image" />
+          <div class="product-content">
+            <h3>Chargeur Sans Fil Rapide</h3>
+            <div class="rating" data-rating="4.7">
+              <span class="stars">★★★★★</span>
+              <span class="rating-text">(4.7/5 - 2,156 avis)</span>
+            </div>
+            <p class="product-desc">Chargeur sans fil ultra-rapide compatible avec tous les appareils Qi. Design élégant et charge sécurisée.</p>
+            <div class="product-features">
+              <span class="feature"><i class="fas fa-check"></i> Charge rapide 15W</span>
+              <span class="feature"><i class="fas fa-check"></i> Compatible Qi</span>
+              <span class="feature"><i class="fas fa-check"></i> Protection surchauffe</span>
+            </div>
+            <div class="price-section">
+              <div class="price">39,99€</div>
+              <div class="price-old">59,99€</div>
+              <div class="discount">-33%</div>
+            </div>
+            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
+              <i class="fab fa-amazon"></i> Acheter sur Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Produit 4 -->
+        <article class="product-card" data-category="smart-home">
+          <div class="product-badge trending">Tendance</div>
+          <img src="images/smart-speaker-placeholder.jpg" alt="Enceinte Connectée Intelligente" class="product-image" />
+          <div class="product-content">
+            <h3>Enceinte Connectée Intelligente</h3>
+            <div class="rating" data-rating="4.4">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-text">(4.4/5 - 3,421 avis)</span>
+            </div>
+            <p class="product-desc">Assistant vocal intelligent avec son 360° et contrôle domotique. Transformez votre maison en maison connectée.</p>
+            <div class="product-features">
+              <span class="feature"><i class="fas fa-check"></i> Assistant vocal</span>
+              <span class="feature"><i class="fas fa-check"></i> Son 360°</span>
+              <span class="feature"><i class="fas fa-check"></i> Contrôle domotique</span>
+            </div>
+            <div class="price-section">
+              <div class="price">129,99€</div>
+            </div>
+            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
+              <i class="fab fa-amazon"></i> Acheter sur Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Produit 5 -->
+        <article class="product-card" data-category="headphones">
+          <img src="images/earbuds-placeholder.jpg" alt="Écouteurs True Wireless" class="product-image" />
+          <div class="product-content">
+            <h3>Écouteurs True Wireless</h3>
+            <div class="rating" data-rating="4.2">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-text">(4.2/5 - 1,876 avis)</span>
+            </div>
+            <p class="product-desc">Écouteurs sans fil compacts avec étui de charge. Idéal pour le sport et les déplacements quotidiens.</p>
+            <div class="product-features">
+              <span class="feature"><i class="fas fa-check"></i> Résistant à l'eau IPX7</span>
+              <span class="feature"><i class="fas fa-check"></i> 24h avec étui</span>
+              <span class="feature"><i class="fas fa-check"></i> Connexion instantanée</span>
+            </div>
+            <div class="price-section">
+              <div class="price">79,99€</div>
+              <div class="price-old">99,99€</div>
+              <div class="discount">-20%</div>
+            </div>
+            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
+              <i class="fab fa-amazon"></i> Acheter sur Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Produit 6 -->
+        <article class="product-card" data-category="accessories">
+          <img src="images/powerbank-placeholder.jpg" alt="Batterie Externe 20000mAh" class="product-image" />
+          <div class="product-content">
+            <h3>Batterie Externe 20000mAh</h3>
+            <div class="rating" data-rating="4.6">
+              <span class="stars">★★★★★</span>
+              <span class="rating-text">(4.6/5 - 5,432 avis)</span>
+            </div>
+            <p class="product-desc">Batterie externe haute capacité avec charge rapide et ports multiples. Indispensable pour vos voyages.</p>
+            <div class="product-features">
+              <span class="feature"><i class="fas fa-check"></i> 20000mAh capacité</span>
+              <span class="feature"><i class="fas fa-check"></i> Charge rapide PD</span>
+              <span class="feature"><i class="fas fa-check"></i> 3 ports USB</span>
+            </div>
+            <div class="price-section">
+              <div class="price">49,99€</div>
+            </div>
+            <a href="https://amazon.com/dp/PRODUCTID?tag=yourtag-20" class="btn-amazon" target="_blank" rel="noopener">
+              <i class="fab fa-amazon"></i> Acheter sur Amazon
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section class="faq-section">
+      <div class="faq-container">
+        <h2>Questions Fréquentes</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>Comment choisir le bon produit ?</h3>
+            <p>Nos experts testent chaque produit selon des critères stricts : qualité, performance, rapport qualité-prix et avis utilisateurs.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Les prix sont-ils à jour ?</h3>
+            <p>Oui, nos prix sont mis à jour quotidiennement via l'API Amazon pour vous garantir les tarifs les plus récents.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Garantie et retours ?</h3>
+            <p>Tous les produits bénéficient de la garantie constructeur et de la politique de retour Amazon (30 jours).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer>
     <div class="footer-content">
       <nav class="footer-nav">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
-        <a href="disclaimer.html">Disclaimer</a>
+        <a href="privacy.html">Politique de Confidentialité</a>
+        <a href="affiliate-disclosure.html">Divulgation d'Affiliation</a>
+        <a href="disclaimer.html">Avertissement</a>
       </nav>
-      <p class="amazon-disclaimer">As an Amazon Associate I earn from qualifying purchases.</p>
-      <p class="copyright">&copy; 2024 GadgetFinderPro. All rights reserved.</p>
+      <p class="amazon-disclaimer">En tant qu'Associé Amazon, je gagne des revenus grâce aux achats éligibles.</p>
+      <p class="copyright">&copy; 2024 GadgetFinderPro. Tous droits réservés.</p>
     </div>
   </footer>
 
   <script src="script.js"></script>
+  
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Produits Tech 2024",
+    "description": "Découvrez notre sélection complète de gadgets technologiques testés et approuvés.",
+    "url": "https://gadgetfinderpro.com/products.html",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "position": 1,
+          "name": "Écouteurs Sans Fil à Réduction de Bruit",
+          "description": "Qualité sonore premium avec 40h d'autonomie et technologie avancée de réduction de bruit.",
+          "offers": {
+            "@type": "Offer",
+            "price": "199.99",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "reviewCount": "1247"
+          }
+        }
+      ]
+    }
+  }
+  </script>
 </body>
 </html>
 
