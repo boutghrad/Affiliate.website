@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://gadgetfinderpro.com/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all search engines to crawl CSS and JS files
+Allow: /style.css
+Allow: /script.js
+Allow: /*.css$
+Allow: /*.js$
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
